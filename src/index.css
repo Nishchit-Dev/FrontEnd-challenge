@@ -1,0 +1,28 @@
+.chakra-checkbox__control.css-jg19us {
+    border: none;
+}
+@keyframes dash {
+    0% {
+      text-decoration: none;
+    }
+    50% {
+      text-decoration: dashed;
+    }
+    100% {
+      text-decoration: none;
+    }
+  }
+
+.dashedText {
+    text-decoration: dashed; 
+    animation: dash 2s infinite;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
