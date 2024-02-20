@@ -3,6 +3,7 @@ import { Box, Center, Flex, Img, Stack, Text } from "@chakra-ui/react";
 import "./App.css";
 import { Checkbox, CheckboxGroup } from "@chakra-ui/react";
 import ModalTable from "./ChakraComponents/ModalTable/ModalTable";
+import MenuButton from "./ChakraComponents/MenuButton";
 
 const TaskBox = () => {
   function CustomIcon(props) {
@@ -120,45 +121,10 @@ const ModelBox = () => {
             </Text>
             <Box w="100%" marginTop={"18px"} marginBottom={"15px"}>
               <Flex gap="10px">
-                <Box
-                  p="7px 18px"
-                  bg={"#17171A"}
-                  borderRadius={"999px"}
-                  display={"flex"}
-                  flexDir={"row"}
-                  gap={"6px"}
-                  alignContent={"center"}
-                  justifyContent={"center"}
-                >
-                  <Text>Model</Text>
-                  <Img src="/Assets/Stroke.svg" w="15px" />
-                </Box>
-                <Box
-                  p="7px 18px"
-                  bg={"#17171A"}
-                  borderRadius={"999px"}
-                  display={"flex"}
-                  flexDir={"row"}
-                  gap={"6px"}
-                  alignContent={"center"}
-                  justifyContent={"center"}
-                >
-                  <Text>Model</Text>
-                  <Img src="/Assets/Stroke.svg" />
-                </Box>
-                <Box
-                  p="7px 18px"
-                  bg={"#17171A"}
-                  borderRadius={"999px"}
-                  display={"flex"}
-                  flexDir={"row"}
-                  gap={"6px"}
-                  alignContent={"center"}
-                  justifyContent={"center"}
-                >
-                  <Text>Model</Text>
-                  <Img src="/Assets/Stroke.svg" />
-                </Box>
+                <MenuButton/>
+                <MenuButton/>
+                <MenuButton/>
+               
               </Flex>
             </Box>
           </Box>

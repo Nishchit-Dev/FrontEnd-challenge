@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 .chakra-checkbox__control.css-jg19us {
     border: none;
 }
@@ -25,4 +27,8 @@
     100% {
         opacity: 1;
     }
+}
+#menuText{
+    font-family: "Inter";
+    padding: "2px 6px";
 }
